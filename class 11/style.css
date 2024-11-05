@@ -1,0 +1,74 @@
+/* tag selector */
+/* h1{
+    background-color: black;
+    color: red;
+} */
+
+
+
+/* Id Selector */
+/* #heading1{
+    background-color: black;
+    color: red;
+} */
+
+
+/* Class selector */
+/* .headings{
+    background-color: orange;
+    color: white;
+} */
+
+/* #heading , p  {
+    color: red;
+} */
+
+
+.colorHeading {
+    /* color name */
+    /* color: purple;    */
+
+    /* rgb , hex code */
+    /* color: rgb(0, 150, 255); */
+    /* color: #4f1fe2; */
+    /* color: #7bbbdb; */
+
+
+    /* color: black;
+    color: #000;
+    color: rgb(0, 0, 0); */
+
+    /* background-color: #000;
+    color: #0096FF; */
+
+
+    /* background-color: rgba(255, 0, 0, 0.8); */
+    /* opacity => 0 to 1 */
+    /* color: blue; */
+    /* background-color: red; */
+
+    /* opacity: 0.5; */
+}
+
+
+/* type tag */
+p.textHeading {
+    font-weight: bold;
+    /*Bold */
+    font-style: italic;
+    /*Italic */
+    /* text-decoration: underline double red ; */
+    text-decoration: underline dashed purple;
+}
+
+a {
+    text-decoration: none;
+    /* Underline */
+}
+
+.paraSpan{
+    color: red;
+    text-decoration: underline black;
+    font-weight: bold;
+    font-style: italic;
+}
