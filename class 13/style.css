@@ -1,0 +1,90 @@
+.heading1 {
+    background-color: lightgreen;
+    /* width: 50%; */
+    /* width: 310px;
+    height: 220px; */
+
+    /* width: 500px; */
+    /* width: 50%; */
+    /* width: 100%; */
+
+    /* width: 500px; */
+    /* width: 75%; */
+
+
+
+    /* max-width:500px ; */
+    /* min-width: ; */
+    /* min-width: 400px; */
+    /* max-width: 400px; */
+    /* min-width: 300px; */
+}
+
+.heading2 {
+    /* background-color: red;
+    width: 50%; */
+}
+
+.box1 {
+    background-color: red;
+    max-width: 500px;
+    min-width: 300px;
+    /* height: 350px; */
+    /* max-height: 300px; */
+    /* min-height: 300px; */
+    /* max-height: 300px;
+    overflow-y: auto; */
+    min-height: 300px;
+}
+
+.box2 {
+    background-color: red;
+    /* width: 200px; */
+    /* padding: 50px; */
+    /* padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px; */
+
+    /* Outside the container spacing */
+    /* margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px; */
+    /* padding: 20px 20px 20px 20px ; */
+    padding: 20px 0px;
+
+}
+
+.box2Heading {
+    background-color: orange;
+    /* width: 75%; */
+    text-align: center;
+}
+
+.box3 {
+    background-color: green;
+    width: 500px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: 20px auto;
+    border: 2px solid red;
+    /* border-radius: 12px; */
+    width: 250px;
+    height: 150px;
+    /* border-radius: 50%; */
+    
+}
+.box4{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 20px;
+}
+.box5{
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+
+}
