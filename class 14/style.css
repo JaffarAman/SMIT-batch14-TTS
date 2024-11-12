@@ -1,0 +1,113 @@
+* {
+    /* color: white;
+    background-color: black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    /* background: red; */
+    /* width: 50%; */
+
+    /* width: 500px; */
+    /* width: 50%; */
+    /* max-width: 500px; */
+    /* text-align: center; */
+    /* min-width: 500px; */
+    /* height: 300px; */
+
+    /* max-height: 300px; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+
+    /* min-height: 300px;
+    border: 2px solid black;
+    padding: 50px 30px;
+    margin: 20px 30px; */
+
+}
+
+.boxParent {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.heading2 {
+    background-color: red;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 50%; */
+    width: 60%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 50px auto;
+}
+
+.box1 {
+    background-color: red;
+    display: inline-block;
+    width: 28%;
+    /* box-shadow: 20px 20px 10px black  ; */
+    /* box-shadow: 10px 5px 10px black  ; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: green;
+    width: 40%;
+    /* display: none; */
+    visibility: hidden;
+}
+
+/* .box3 {
+    display: inline-block;
+    background-color: blue;
+    width: 28%;
+    display: none;
+} */
+
+.box10 {
+    background-color: red;
+    /* width: 50%; */
+    width: 200px;
+}
+
+.box20 {
+    background-color: orange;
+    /* width: 50%; */
+    width: 450px;
+
+
+}
+
+
+.box30 {
+    background-color: purple;
+    width: 200px;
+
+}
+
+.parent {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* height: 500px; */
+    /* background-color: green; */
+    /* align-items: center; */
+    /* align-items: center; */
+
+
+    display: flex;
+    /* align-items: baseline; */
+    /* align-items: center;
+    justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    gap: 20px;
+}
