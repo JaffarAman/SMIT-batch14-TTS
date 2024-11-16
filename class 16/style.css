@@ -1,0 +1,122 @@
+/* h1{
+    background-color: red;
+} */
+
+/* Child Selector */
+
+
+/* Child Selector */
+/* parent > child_element */
+.orderList > li{
+    background-color: orange;
+}
+
+/* 
+.parentBox > p{
+    color: red;
+} */
+
+/* .parentBox  p , .parentBox h1{
+    color: red;
+} */
+
+
+
+.orderList{
+    background-color: red;
+    list-style-position: inside;
+    list-style-type:georgian ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .myTable{
+    width: 100%;
+    border: 1px solid black; */
+    /* border-spacing: 20px; */
+    /* empty-cells: hide;
+    border-collapse: collapse;
+}
+.myTable td{
+    border: 1px solid red;
+    padding: 10px;
+} */
+.tableParent{
+    padding: 0 20px;
+}
+.myTable{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+.myTable td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.myTable thead tr{
+    background-color: gray;
+}
+
+.myTable tbody tr{
+    background-color: lightseagreen;
+}
+
+.myTable tbody td:hover{
+    background-color: blue;
+}
+
+.myTable tbody tr:hover{
+    background-color: lightgrey;
+}
+
+.heading2{
+    /* position: relative;
+    left: 30px;
+    top: 10px; */
+
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    /* bottom: 0;
+    left: 0; */
+    /* left: 30px; */
+    
+
+
+    /* left: ; */
+    /* right: 0;
+    top: 0;
+    bottom: 0; */
+
+    /* left:  px; */
+}
+
+.icon{
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: 0; */
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.iconParent{
+    border: 1px solid red;
+    position: relative;
+}
