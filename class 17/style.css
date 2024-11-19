@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+.heading1{
+    color: orange;
+}
+
+#idHeading{
+    color: purple;
+}
+
+.box1{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+.newHeading2{
+    background-color: lightcoral;
+}
+.box2{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    /* position: relative;
+    left: 50px;
+    top: 100px;
+    z-index: -1; */
+    /* position: fixed;
+    top: 0;    
+    right: 0; */
+
+}
+
+
+.box3{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+}
+.parent{
+    width: 50%;
+    border: 1px solid red;
+    height: 300px;
+    position: relative;
+}
+.box4{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.header{
+    border: 1px solid red;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: red;
+}
+
+.imgParent{
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+    /* width: 100%; */
+}
+.carImg{
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+    display: block;
+    margin:0 auto;
+    background-color: red;
+}
+
+/* .bgImg{
+    
+    width: 100%;
+    height: 500px;
+    background-image:  url("./images/car1.jpeg") ;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+} */
+
+.multiColor{
+    height: 400px;
+    background-color: red;
+
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;    
+
+
+
+}
