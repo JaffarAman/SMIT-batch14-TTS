@@ -1,0 +1,58 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.colorh1 {
+    background-image: linear-gradient(red, green);
+    color: transparent;
+    background-clip: text;
+    /* font-family: monospace; */
+
+    /* font-weight: ; */
+
+}
+
+.facebookIcon {
+    color: blue;
+    font-size: 32px;
+}
+
+.container {
+    background-color: red;
+    font-size: 84px;
+    width: 500px;
+}
+
+@media only screen and (max-width : 500px) {
+    h1{
+        color: green;
+    }
+}
+
+
+/* @media only screen and (max-width : 500px) {
+    .container {
+        width: 100%;
+    }
+    h1{
+        color: green;
+    }
+}
+
+@media only screen and (max-width :400px) {
+    .container {
+        font-size: 24px;
+    }
+} */
+
+/* 
+@media only screen and (max-width : 500px){
+        .container{
+            background-color: green;
+        }
+} */

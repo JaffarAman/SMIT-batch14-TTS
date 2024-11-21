@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+.container{
+    background-color: lightgray;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer{
+    width: 50%;
+}
+.formContainer fieldset{
+    padding: 15px;
+
+}
+.formContainer legend{
+    text-align: center;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.inputContainer input{
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.loginbtn{
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+@media only screen and (max-width : 500px){
+    .formContainer{
+        width: 80%;
+    }
+}
