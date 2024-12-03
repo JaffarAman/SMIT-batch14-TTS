@@ -1,0 +1,25 @@
+.productModal .modal-dialog {
+    /* width: 700px; */
+    /* background-color: red; */
+    /* width: 700px; */
+    max-width: 70%;
+}
+
+.mySlider img{
+    height: 400px;
+}
+
+.myCard{
+    transition: all ease 0.6s;
+}
+
+.myCard:hover{
+    background-color: red;
+    transform: translateY(-12px);
+}
+.seeBtn{
+    transition: all ease 0.6s;
+}
+.seeBtn:hover{
+    scale: 1.1;
+}
