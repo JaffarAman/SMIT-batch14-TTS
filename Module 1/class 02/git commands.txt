@@ -1,0 +1,20 @@
+Setup User Details
+
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+
+---------------------------------------------------------------
+
+Project (First Time setup)
+
+git init
+git add .
+git commit -m "message"
+git branch -M main
+git remote add origin https://github.com/hateshk8/Assignment-01.git
+git push -u origin main
+-----------------------------------------------------------------
+
+git add .
+git commit -m "message"
+git push
