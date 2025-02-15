@@ -31,4 +31,8 @@ function setValue() {
   userName.value = "jaffaraman";
 }
 
-setValue()
+setValue();
+
+document.write("HELLO 1 <br/> ");
+document.write("HELLO 2" + "<br />");
+document.write("HELLO 3");
