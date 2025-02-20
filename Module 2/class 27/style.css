@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin: 50px auto;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* .inputContainer {
+  border: 1px solid blue;
+} */
+
+.inputContainer input {
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid gray;
+  text-align: right;
+}
+.tableContainer table {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.tableContainer table td {
+  padding: 5px;
+  text-align: center;
+  border: none;
+  background-color: lightgrey;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+.tableContainer table td:hover {
+  background-color: grey;
+  scale: 1.1;
+}
