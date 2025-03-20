@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.inputContainer button {
+  padding: 16px;
+  border: none;
+  background-color: darkseagreen;
+  border-radius: 8px;
+  width: 120px;
+  margin: 12px 0;
+  cursor: pointer;
+}
+
+.listContainer {
+}
+
+.listContainer li {
+  padding: 12px;
+  background-color: lightgreen;
+  margin: 10px 0;
+  list-style: none;
+}
