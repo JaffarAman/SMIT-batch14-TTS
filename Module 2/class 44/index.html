@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .liLine {
+        text-decoration: line-through;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <input type="text" placeholder="Enter your msg.." id="message" />
+    <button onclick="createh1()">GREET!</button>
+    <div id="parent"></div> -->
+
+    <h1>Notes APP</h1>
+
+    <div class="container">
+      <input type="text" id="input" placeholder="enter notes..." />
+      <div class="btnContainer">
+        <button onclick="createNote()">ADD</button>
+        <button onclick="deleteAll()">Delete All</button>
+      </div>
+    </div>
+
+    <div>
+      <ul id="listParent">
+        <!-- <li>
+          HELLO WORLD
+          <button>Edit</button>
+          <div>
+            <button>Delete</button>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
