@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: 0 auto;
+    /* min-height: 100vh; */
+    /* padding: 50px; */
+    margin-top: 50px;
+}
+
+.container fieldset {
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.container fieldset legend {
+    font-size: 32px;
+    /* text-align: center; */
+}
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.formContainer input {
+    padding: 8px;
+    border: 1px solid black;
+    /* background-color: lightblue; */
+    border-radius: 8px;
+    outline: none;
+}
+
+.formContainer button {
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    padding: 16px;
+}
+
+.navOptions ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navOptions ul li {
+    cursor: pointer;
+}
+
+.navContainer li:hover {
+    text-decoration: underline;
+}
+
+.todoContainer {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: 30px auto;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.todoContainer h1 {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-family: monospace;
+    padding: 8px;
+}
+
+.todoForm {
+    padding: 8px;
+}
+
+.todoForm input {
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid lightgrey;
+    padding: 8px;
+}
+
+.todoForm .todoBtn{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.todoBtn button{
+    width: 120px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: lightcoral !important;
+}
+
+.listContainer{
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    /* padding: 8px; */
+}
+.listContainer .list{
+    background-color: lightblue;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.listContainer h5{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.listContainer button{
+    width: 120px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
