@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="renderUI()">
+
+    <!-- <h1>DASHBOARD PAGE</h1>
+    <h1>USER NAME</h1> -->
+
+
+
+
+    <section class="navContainer">
+        <!-- logo -->
+        <div class="navLogo">
+            <!-- <img src="" alt=""> -->
+            <p>LOGO</p>
+        </div>
+        <!-- options -->
+        <div class="navOptions">
+            <ul>
+                <li>
+                    <a href="./dashboard.html">
+                        Home
+                    </a>
+                </li> <!--todo app -->
+                <li>
+                    <a href="./profile.html">
+                        Profile
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <div class="todoContainer">
+        <h1>TODO APP</h1>
+
+
+        <div class="todoForm">
+            <input type="text" placeholder="Enter your todo..." id="todoInput">
+            <div class="todoBtn">
+                <button onclick="addTodo()">ADD</button>
+                <button class="deleteBtn">Delete All </button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="listContainer" id="listContainerid">
+        <!-- <div class="list">
+            <h5>Title</h5>
+            <div class="listBtn">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div> -->
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="todo.js"></script>
+
+</html>

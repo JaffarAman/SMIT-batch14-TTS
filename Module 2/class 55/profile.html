@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="getUserData()">
+    <section class="navContainer">
+        <!-- logo -->
+        <div class="navLogo">
+            <!-- <img src="" alt=""> -->
+            <p>LOGO</p>
+        </div>
+        <!-- options -->
+        <div class="navOptions">
+            <ul>
+                <li>
+                    <a href="./dashboard.html">
+                        Home
+                    </a>
+                </li> <!--todo app -->
+                <li>
+                    <a href="./profile.html">
+                        Profile
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <section class="userContainer">
+        <h1>USER PROFILE</h1>
+        <div class="userForm">
+            <input id="firstName" type="text" placeholder="Enter your first Name">
+            <input id="lastName" type="text" placeholder="Enter your last Name">
+            <input id="email" disabled type="text" placeholder="Enter your email">
+            <input id="password" type="password" placeholder="Enter your password">
+            <button onclick="updateUser()" >UPDATE</button>
+        </div>
+
+    </section>
+
+</body>
+<script src="profile.js"></script>
+
+</html>
