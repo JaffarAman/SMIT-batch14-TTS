@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.container div {
+    border: 1px solid black;
+    /* width: 250px; */
+    flex: 1;
+    border-radius: 8px;
+}
+.container div h1 , .container div p{
+    text-align: center;
+}
+
+
+/* .z4Naub {
+    max-width: 300px;
+    pointer-events: none;
+    position: absolute;
+} */
