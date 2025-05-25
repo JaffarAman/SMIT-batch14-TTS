@@ -1,0 +1,10 @@
+var let const
+scopes
+hoisting  ,TDZ => temp Dead zone
+
+template literals
+
+Array or Object destr
+
+
+
