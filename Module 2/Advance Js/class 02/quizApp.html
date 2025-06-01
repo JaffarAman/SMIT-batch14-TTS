@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="uiRender() ; userDetails() ">
+
+    <div class="quizContainer">
+
+
+        <!-- Header -->
+        <div class="quizHeader">
+            <div>
+                <p id="userName" >
+                    name:Jaffar
+                </p>
+                <p id="userEmail" >
+                    email:jaffar@gmail.com
+                </p>
+            </div>
+
+            <div>
+                <p>
+
+                    Time:5:00
+                </p>
+            </div>
+
+        </div>
+
+        <div>
+
+            <h1 id="question">Q1:what is your name?</h1>
+            <ul id="options">
+                <!-- <li>HELLO</li>
+                <li>HELLO WORLD</li>
+                <li>HELLO SMIT</li>
+                <li>HELLO SAYLANI</li> -->
+            </ul>
+
+        </div>
+
+        <div class="quizFooter">
+
+            <div id="count">
+                1 / 10
+            </div>
+
+            <button onclick="nextQues()" disabled id="nextBtn">NEXT</button>
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+<script src="quizApp.js"></script>
+
+</html>

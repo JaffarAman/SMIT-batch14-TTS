@@ -8,56 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body onload="uiRender()">
-
-    <div class="quizContainer">
+<body>
 
 
-        <!-- Header -->
-        <div class="quizHeader">
-            <div>
-                <p>
-                    name:Jaffar
-                </p>
-                <p>
-                    email:jaffar@gmail.com
-                </p>
-            </div>
-
-            <div>
-                <p>
-
-                    Time:5:00
-                </p>
-            </div>
-
-        </div>
-
-        <div>
-
-            <h1 id="question">Q1:what is your name?</h1>
-            <ul id="options">
-                <!-- <li>HELLO</li>
-                <li>HELLO WORLD</li>
-                <li>HELLO SMIT</li>
-                <li>HELLO SAYLANI</li> -->
-            </ul>
-
-        </div>
-
-        <div class="quizFooter">
-
-            <div id="count">
-                1 / 10
-            </div>
-
-            <button onclick="nextQues()">NEXT</button>
-
-        </div>
-
-
-
+    <div>
+        <h1>QUIZ APP Form</h1>
+        <input type="text" placeholder="Enter your name" id="name" >
+        <input type="text" placeholder="Enter your email address" id="email" >
+        <button onclick="submitHandler()" >SUBMIT</button>
     </div>
+
+
 
 
 </body>
