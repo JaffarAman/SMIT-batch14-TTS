@@ -6,3 +6,13 @@ https://we.tl/t-O39XIB0zvk  -- class 2
 
 advance jS 
 Class 03 == https://we.tl/t-Yyepyu2f36
+
+
+
+Class 04 link
+https://we.tl/t-b1cfosXewj
+
+
+
+Class 05 link
+https://we.tl/t-XELZiX4QtJ
