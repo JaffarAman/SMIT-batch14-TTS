@@ -1,0 +1,31 @@
+Arrow function
+spread or rest 
+deep or shalow copy
+this
+fetch
+map
+filter
+forEach
+find | findIndex
+Promises | Async Await
+try catch
+classes
+
+
+
+module => import export
+set
+# IIFE
+# Array methods
+some , every , sort , reverse , isArray,  includes , reduce
+
+
+
+# Iterators and Generators:
+# Maps and Sets:
+# Closures:
+# GEC => Global exec context
+# Recursion
+
+
+<!-- https://github.com/leonardomso/33-js-concepts?tab=readme-ov-file -->
