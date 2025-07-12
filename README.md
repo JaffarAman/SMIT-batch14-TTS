@@ -13,6 +13,13 @@ Class 04 link
 https://we.tl/t-b1cfosXewj
 
 
+firebase video
+https://we.tl/t-ktuRfwruZM
+
+
+
+
+
 
 Class 05 link
 https://we.tl/t-XELZiX4QtJ
