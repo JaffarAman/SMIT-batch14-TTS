@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="fetchUserData();fetchTodos()">
+    <!-- <h1>DASHBOARD</h1> -->
+    <div class="navbarContainer">
+      <ul>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="./myTodo.html">My Todo</a>
+        </li>
+        <li><a href="">Profile</a></li>
+        <li class="logout">logout</li>
+      </ul>
+    </div>
+
+    <div class="todoContainer">
+      <div>
+        <input id="todoTitle" type="text" placeholder="Enter title...." />
+        <textarea id="todoDesc" placeholder="Desc..." id=""></textarea>
+        <button onclick="addTodo()">ADD TODO</button>
+      </div>
+    
+      <div id="cardListing" >
+
+        <!-- <div class="cardContainer" >
+            <h1>TITLE</h1>
+            <h3>DESC</h3>
+            <div>
+              <p>USERNAME</p>
+              <p>USER EMAIL</p>
+            </div>
+        </div> -->
+
+      </div>
+    
+    </div>
+
+
+  </body>
+  <script type="module" src="dashboard.js"></script>
+</html>
