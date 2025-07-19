@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbarContainer">
+      <ul>
+        <li>
+          <a href="./dashboard.html">Home</a>
+        </li>
+        <li>
+          <a href="./myTodo.html">My Todo</a>
+        </li>
+        <li><a href="./profile.html">Profile</a></li>
+        <li class="logout">logout</li>
+      </ul>
+    </div>
+
+    <h1>PROFILE</h1>
+
+    <div class="profileForm">
+        <img src="" id="dp" alt="">
+
+      <label for="">First Name</label>
+      <input id="firstname" type="text" placeholder="First Name" />
+      <label for="">Last Name</label>
+      <input id="lastname" type="text" placeholder="last Name" />
+      <label for="">Email</label>
+      <input id="email" type="text" placeholder="Email Address" disabled />
+      <label for="">Mobile Number</label>
+      <input id="mobileNumber" type="text" placeholder="Mobile Number" />
+
+      <label for="">Profile Pic</label>
+      <input type="file" id="profilePic" onchange="fileHandler()" />
+
+      <button>Update Profile</button>
+    </div>
+  </body>
+
+  <script type="module" src="profile.js"></script>
+</html>

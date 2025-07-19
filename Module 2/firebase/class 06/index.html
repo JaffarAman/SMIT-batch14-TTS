@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="authCheck()" >
+    <div class="loginContainer">
+      <h1>LOGIN</h1>
+      <div class="loginForm">
+        <input id="email" type="text" placeholder="Enter your email" />
+        <input id="password" type="password" placeholder="Enter your Password" />
+        <p>Create An Account? <a href="./signup.html">Signup</a></p>
+        <button onclick="loginHandler()" >Login</button>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="app.js"></script>
+</html>

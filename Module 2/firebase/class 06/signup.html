@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="authCheck()" >
+    <div class="loginContainer">
+      <h1>SignUp</h1>
+      <div class="loginForm">
+        <input id="firstName" type="text" placeholder="Enter your First Name" />
+        <input id="lastName" type="text" placeholder="Enter your Last Name" />
+        <input id="mobileNumber" type="number" placeholder="Enter your Mobile Number" />
+        <input type="text" id="email" placeholder="Enter your email" />
+        <input type="password" id="password" placeholder="Enter your Password" />
+        <p>Already Account? <a href="./index.html">Login</a></p>
+        <button onclick="signupHandler()" >Signup</button>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="signup.js"></script>
+</html>

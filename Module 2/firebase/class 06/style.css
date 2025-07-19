@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginContainer {
+  width: 40%;
+  margin: 40px auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.loginForm input {
+  width: 100%;
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+.loginForm button {
+  font-size: 24px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.navbarContainer {
+  width: 100%;
+  background-color: lightcyan;
+  padding: 16px;
+}
+
+.navbarContainer ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  width: 70%;
+  margin: 0 auto;
+}
+.navbarContainer a {
+  color: black;
+  text-decoration: none;
+}
+.logout {
+  color: red !important;
+}
+
+.todoContainer {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.todoContainer input {
+  width: 100%;
+  outline: none;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.todoContainer textarea {
+  width: 100%;
+  outline: none;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.todoContainer button {
+  padding: 16px;
+  border: none;
+  background-color: lightgreen;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#cardListing {
+  margin-top: 30px;
+}
+.cardContainer {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px;
+}
+.cardContainer div {
+  border-top: 1px solid lightgray;
+  margin-top: 5px;
+  padding-top: 8px;
+}
+
+.profileForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+
+.profileForm input{
+    width: 100%;
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+
+.profileForm button {
+  font-size: 24px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+#dp{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
