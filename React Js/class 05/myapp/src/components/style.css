@@ -1,0 +1,36 @@
+.cardContainer{
+    border: 1px solid black;
+}
+
+
+.cart-item {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-controls button {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
