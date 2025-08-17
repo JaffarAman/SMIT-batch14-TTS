@@ -1,0 +1,29 @@
+.heading {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-bottom: 1px solid black;
+  width: 50%;
+}
+
+.header {
+  /* border: 1px solid red; */
+  width: 60%;
+  margin: 20px auto;
+}
+
+.header input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 8px;
+}
+
+/* .header button{
+    border: 1px solid black;
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 0 10px;
+} */
