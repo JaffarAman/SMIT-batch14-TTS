@@ -1,0 +1,64 @@
+# BACKEND TOPICS
+nodejs
+v8 engine
+Hello World Nodejs
+npm init  / npm init -y
+package.json
+npm start - project start cmd
+modules
+type="module"
+File System Module
+http -> http server
+url
+nodemon
+express
+params
+query params
+Get , Post
+Basic API
+create CRUD API
+postman
+body parser
+.gitignore
+node_modules
+Data Mangement (CRUD) using File System (FS)
+uuid()
+package.json -    "dependencies": {
+      "express": "^4.21.2",
+      "uuid": "^11.1.0"
+    }
+    API calling on Frontend side
+    
+    cors()
+
+
+    MongoDb Atlas 
+    create MongoDB cluster Database
+    mongoose
+    Create CRUD on DB
+    TOdo APP
+
+
+    middleware
+login
+signup
+jwt
+cookies
+
+mvc 
+image handling
+email sender
+otp verfication
+
+
+
+rate limiting
+redis
+
+
+
+
+
+
+    
+    
