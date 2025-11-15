@@ -6,7 +6,7 @@ const noteRoute = express.Router();
 
 
 
-noteRoute.post("/create-note" ,  authMiddleware ,createNote)
+noteRoute.post("/upload" ,  authMiddleware ,createNote)
 // noteRoute.get("/all-notes" ,   authMiddleware , getAllNotes )
 // noteRoute.get("/single-note/:id" ,   authMiddleware , getAllNotes )
 

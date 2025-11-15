@@ -1,0 +1,38 @@
+import express from "express";
+import { createNote } from "../controllers/note.js";
+import { upload } from "../middleware/multerMiddleware.js";
+import { v2 as cloudinary } from "cloudinary";
+import dotenv from "dotenv";
+import { cloudinaryUploader } from "../config/cloudinary.js";
+import fs from "fs";
+console.log(
+  process.env.CLOUDINARY_CLOUD_NAME,
+  "process.env.CLOUDINARY_CLOUD_NAME"
+);
+
+const imageRoute = express.Router();
+
+imageRoute.post("/upload", upload.single("profileImage"), async (req, res) => {
+  try {
+    console.log("req file", req.file);
+
+    // image save on cloudinary
+    const imageRes = await cloudinaryUploader.upload(req.file.path);
+
+    // get user by id and save image URL
+
+    console.log("imageRes", imageRes);
+
+    res.json({
+      message: "image uploaded",
+      url: imageRes.secure_url,
+    });
+  } catch (error) {
+    console.log("error upload image", error.message);
+  } finally {
+    console.log("finally");
+    fs.unlinkSync(req.file.path);
+  }
+});
+
+export default imageRoute;

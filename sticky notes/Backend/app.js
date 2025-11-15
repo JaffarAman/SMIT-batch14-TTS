@@ -5,6 +5,8 @@ import authRoute from "./routes/auth.js";
 dotenv.config();
 import cors from "cors";
 import noteRoute from "./routes/note.js";
+import imageRoute from "./routes/image.js";
+import { cloudinaryConfig } from "./config/cloudinary.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -17,10 +19,12 @@ app.use(cors());
 
 //db connection
 dbConnect();
+cloudinaryConfig()
 
 // All routes
 app.use("/api/auth", authRoute);
 app.use("/api/note" , noteRoute )
+app.use("/api/image" , imageRoute )
 
 //root api
 app.get("/", (req, res) => {

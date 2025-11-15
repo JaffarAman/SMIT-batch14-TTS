@@ -4,6 +4,23 @@ import React from "react";
 const Dashboard = () => {
   console.log("BACKEND_BASE_URL", import.meta.env.VITE_BACKEND_BASE_URL);
 
+
+
+  const uploadImage = async ()=>{
+    const image = imageFile
+    const formData = new FormData()
+    formData.append("profileImage" , imageFile)
+
+    const res = await axios.post(URL , formData , {
+      headers :{
+        "Content-Type" : "multipart/form-data"
+      }
+    })
+
+
+  }
+
+
   const createPost = async () => {
     try {
       const body = {

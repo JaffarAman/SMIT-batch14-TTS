@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+console.log("process.env.MONGODB_URI", process.env.MONGODB_URI);
 export const dbConnect = () => {
   const URI = process.env.MONGODB_URI;
   mongoose
