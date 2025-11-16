@@ -7,6 +7,7 @@ import cors from "cors";
 import noteRoute from "./routes/note.js";
 import imageRoute from "./routes/image.js";
 import { cloudinaryConfig } from "./config/cloudinary.js";
+// import userRoute from "./routes/userRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -16,15 +17,15 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-
 //db connection
 dbConnect();
-cloudinaryConfig()
+cloudinaryConfig();
 
 // All routes
 app.use("/api/auth", authRoute);
-app.use("/api/note" , noteRoute )
-app.use("/api/image" , imageRoute )
+app.use("/api/note", noteRoute);
+app.use("/api/image", imageRoute);
+// app.use("/api/", userRoute);
 
 //root api
 app.get("/", (req, res) => {

@@ -25,7 +25,7 @@ function Signup() {
       [name]: value,
     }));
   };
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const handleSubmit = async (e) => {
     try {
       e.preventDefault();
@@ -42,15 +42,14 @@ function Signup() {
         password,
       };
       console.log("obj", obj);
-      const url = `http://localhost:5000/api/signup`;
+      const url = `${import.meta.env.VITE_BACKEND_BASE_URL}/auth/signup`;
       const response = await axios.post(url, obj);
       console.log("response", response);
-      navigate("/otp-verify" , {
-        state : {
-          email
-        }
-      } )
-
+      navigate("/otp-verify", {
+        state: {
+          email,
+        },
+      });
     } catch (error) {
       alert(error.message);
     }

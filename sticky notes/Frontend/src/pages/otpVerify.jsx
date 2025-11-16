@@ -22,7 +22,7 @@ const OTPPage = () => {
     }
 
     // call verify-otp api
-    const URL = "http://localhost:5000/api/verify-otp";
+    const URL = "http://localhost:5000/api/auth/verify-otp";
     const body = {
       email: location.state.email,
       otp,
@@ -41,7 +41,7 @@ const OTPPage = () => {
 
   const handleSendOtp = async () => {
     // call reset-otp api
-    const URL = "http://localhost:5000/api/reset-otp";
+    const URL = "http://localhost:5000/api/auth/reset-otp";
     const body = {
       email: location.state.email,
     };

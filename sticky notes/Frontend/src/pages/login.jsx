@@ -22,7 +22,7 @@ function Login() {
     };
 
     console.log("obj", obj);
-    const url = `http://localhost:5000/login`;
+    const url = `http://localhost:5000/api/auth/login`;
     const response = await axios.post(url, obj);
     console.log("response", response);
     localStorage.setItem("token" , response.data.token)
