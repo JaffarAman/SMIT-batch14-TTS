@@ -1,0 +1,19 @@
+.productcard {
+  border: 1px solid red;
+  width: 400px;
+  margin: 20px 0;
+}
+
+.productcard img {
+  width: 100%;
+  height: 200px;
+}
+
+.productcard button {
+  width: 180px;
+  padding: 16px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}

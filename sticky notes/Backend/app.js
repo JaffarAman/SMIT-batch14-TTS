@@ -8,6 +8,10 @@ import noteRoute from "./routes/note.js";
 import imageRoute from "./routes/image.js";
 import { cloudinaryConfig } from "./config/cloudinary.js";
 // import userRoute from "./routes/userRoute.js";
+import cron from "node-cron";
+import OTPModel from "./models/otp.js";
+import { createClient } from "redis";
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -16,6 +20,17 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+
+// Redis
+const client  = createClient()
+client.on("connect" , ()=>console.log("Redis connected!"))
+client.on("error" , (err)=>console.log("Redis Error!" , err.message))
+
+
+client.connect()
+
+
+
 
 //db connection
 dbConnect();
@@ -32,6 +47,20 @@ app.get("/", (req, res) => {
   res.json({
     message: "SERVER RUNNING...",
   });
+});
+
+// cron.schedule("*/5 * * * * *", () => {
+//   console.log("run after every 5 sec...");
+// });
+
+cron.schedule("52 18 * * *", async () => {
+  // console.log("run after every 5 sec...");
+  try {
+    console.log("delete otp")
+    await OTPModel.deleteMany({ isUsed: true });
+  } catch (error) {
+    console.log("ERROR:", error.message);
+  }
 });
 
 app.listen(PORT, () =>

@@ -1,0 +1,19 @@
+{
+  "name": "genai",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
