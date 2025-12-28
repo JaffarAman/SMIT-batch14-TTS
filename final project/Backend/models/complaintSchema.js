@@ -23,15 +23,19 @@ const ComplaintSchema = new mongoose.Schema(
     },
     status: {
       type: String,
-      enum: ["pending", "inProgress", "resolved"],
+      enum: ["pending", "inProgress", "resolved", "closed", "rejected"],
       default: "pending",
     },
     uploadedEvidence: {
-      type: String,
+      type: Array,
     },
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "user",
+    },
+    bankId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "bank",
     },
   },
   { timestamps: true }
